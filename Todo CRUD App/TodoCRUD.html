@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Todo CRUD Application</title>
+        
+        <meta name="view-port" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
+       
+        <link rel="stylesheet" href="/CSS/TodoCRUD.css"/>    
+        <script type="text/javascript" src="/JS/TodoCRUD.js"></script>
+        
+        
+    </head>
+   
+    <body>
+        <div class = "Containner">
+            <h1 class="heading text-center">Welcome To My Todo CRUD Application</h1>
+            
+            <div class="addPerson">
+                <div class="row">
+                    <label for="Name" class="col-md-10">Name</label> 
+                    <div class="col-md-10">
+                    <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="col-md-2">
+                    <button type="button" class="btn btn-primary" id="addPerson" onclick="add();">Add Person</button>
+                    </div>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <p>PERSON LIST</p>
+                    </div>
+                </div>
+                <div class="person" id="personList">
+                  <!--  <div class="row"> 
+                        <div class="col-md-6">
+                        <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-2">
+                        <button type="button" class="btn btn-success">Save</button>
+                        </div>
+                        <div class="col-md-2">
+                        <button type="button" class="btn btn-success">Update</button>
+                        </div>
+                        <div class="col-md-2">
+                         <button type="button" class="btn btn-danger">Delete</button>
+                        </div>
+                    </div> -->
+                    <br>
+                </div> 
+            </div>     
+        </div>
+    </body>
+</html>

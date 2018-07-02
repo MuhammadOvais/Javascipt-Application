@@ -1,0 +1,17 @@
+<style>
+
+*{margin: 0px;padding: 0px;}
+.heading{
+color: #fff;
+background: #337AB7;
+text-transform: uppercase;
+
+}
+.form-control{
+  border-radius: 0px;
+  width:100%;
+
+}
+
+</style>
+
